@@ -1,0 +1,331 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.flex{
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+.parentNave{
+  height: 80px;
+}
+.nave{
+  position: fixed;
+  z-index: 12;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(17 24 39);
+  color: wheat;
+  height: 75px;
+  width: 100vw
+  
+  
+}
+.gapes{
+  width: 30vw;
+  justify-content: space-around;
+}
+button{
+    color: white;
+    font-weight: 600;
+    padding: 9px 15px;
+    background-color: rgb(37 99 235);
+    font-size: medium;
+    border-style: none;
+    border-radius: 5px;
+}
+button:hover{
+  cursor: pointer;
+  background-color: orangered;
+}
+#logo{
+  font-size: x-large;
+  font-weight: 500;
+  margin-left: 20px;
+}
+.hero{
+  background-image: url(https://i.pinimg.com/originals/71/b4/d2/71b4d2dfa80cbd94c1986c4d46f781b5.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+}
+.side{
+  width: 45vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.fontLarg{
+  font-size: 2.75rem;
+  font-weight: 900;
+}
+.fontColor{
+  color: rgb(190 18 60 );
+}
+.butenStyle{
+  margin: 20px;
+  padding: 15px 40px;
+  background-color: rgb(190 18 60);
+}
+.butenStyle2{
+  margin: 20px;
+  padding: 15px 40px;
+  background-color: white;
+  color: black;
+
+}
+.secondPage{
+  margin-top: 10vh;
+  display: flex;
+  align-items: center;
+}
+#home{
+  width: 50vw;
+  height: 70vh;
+}
+.text{
+  width: 70vw;
+  height: 80vh;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  justify-content: center;
+  padding:40px;
+}
+.textSid{
+  text-align: left;
+  margin: 10px 60px 10px 110px;
+}
+.image{
+  margin-right: -80px;
+  z-index: 10;
+}
+.text2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.fontSizeBold{
+  font-size: 2rem;
+  font-weight: 600;
+}
+#profilePic{
+  width: 4vw;
+  height: 7vh;
+  border-radius: 100%;
+}
+.flexd{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+  margin-left: 20px;
+
+}
+.width40{
+  width: 60vh;
+  text-align: start;
+}
+.textAriya{
+  padding: 20px;
+  background-color: rgba(152, 189, 248, 0.11);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.theardPage{
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 130px;
+
+}
+i{
+  font-size: 2rem;
+}
+.forth{
+  margin-top: 80px;
+  width: 100vw;
+  background-color: aliceblue;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+.width60vw{
+  width: 50vw;
+}
+.flexc{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 40px;
+}
+.icon{
+  gap: 30px;
+  margin-top: 40px;
+}
+.name{
+  gap: 50px;
+  margin-top: 40px;
+}
+#blurcolor{
+  color: #0d9488;
+}
+.propslo{
+
+  margin: 80px;
+  padding: 40px;
+  background-color: blueviolet;
+}
+.fontsizein{
+  font-size:x-large;
+  font-weight: 700;
+}
+.colorBox{
+  display: flex;
+    flex-direction: column;
+    align-items: start;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    width: 11vw;
+    height: 35vh;
+    overflow: hidden;
+}
+.colorCod{
+  font-size: 2rem;
+    margin: 0;
+    font-weight: 700;
+}
+.colorParent{
+  margin: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.imp{
+  width: 30vw;
+  height: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.332);
+}
+#jono{
+  width: 30vw;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.332);
+}
+.contBox{
+  width: 40vw;
+}
+.aStyle{
+  text-decoration: none;
+  color: antiquewhite;
+}
+.aStyle:hover{
+  color: orange;
+}
+.inputBox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.332);
+  border-radius: 5px;
+}
+.cmainBox{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
